@@ -95,6 +95,7 @@
 }
 
 
+
 .area-cadastrado h2{
   display: flex;
   width: 276px;
@@ -139,4 +140,9 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+
+.area-cadastrado button a{
+  color: #FFF;
+  text-decoration: none;
 }

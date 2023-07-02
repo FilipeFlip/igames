@@ -26,8 +26,9 @@ export default function Cadastro(){
           <div className='area-cadastrado'>
             <h2>Bem Vindo(a) de volta</h2>
             <h3>Acesse sua conta</h3>
-            <button>
-              Entrar
+            
+            <button className='botao-login'>
+              <a href="/login"> Logar </a>
             </button>
           </div>
           
