@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+.container-cadastrar{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.area-input{
+  width: 40%;
+  height: 450px;
+  flex-shrink: 50;
+  border-radius: 20px 0px 0px 20px;
+  background: #FFF;
+}
+
+.area-cadastrado{
+  width: 20%;
+  height: 450px;
+  border-radius: 0px 20px 20px 0px;
+  background: #8161C4;
+}
+
+.email input{
+  width: 80%;
+  height: 40px;
+  margin-left: 10%;
+  border-radius: 45px;
+  border: 1px solid #808080;
+  background: #FFF;
+  margin-top: 80px;
+  object-position: 20%;
+}
+
+.usuario input{
+  width: 80%;
+  height: 40px;
+  margin-left: 10%;
+  border-radius: 45px;
+  border: 1px solid #808080;
+  background: #FFF;
+  margin-top: 15px;
+  object-position: 20%;
+}
+
+.senha input{
+  width: 80%;
+  height: 40px;
+  margin-left: 10%;
+  border-radius: 45px;
+  border: 1px solid #808080;
+  background: #FFF;
+  margin-top: 15px;
+  object-position: 20%;
+  margin-bottom: 70px;
+}
+
+.area-input input::placeholder{
+  color: #808080;
+  font-size: 15px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  padding-left: 25px;
+}
+
+.area-input h1{
+  
+  color: #000;
+  font-size: 32px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bolder;
+  margin-top: 20px;
+  padding-left: 10%;
+}
+
+.area-input button{
+  width: 40%;
+  height: 40px;
+  margin-left: 30%;
+  border: none;
+  border-radius: 45px;
+
+  background: radial-gradient(109.18% 2536.25% at 52.04% 100.00%, #8161C4 0%, #DDD1FC 100%);
+  color: #FFF;
+  font-size: 15px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+
+.area-cadastrado h2{
+  display: flex;
+  width: 276px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-left: 5%;
+  margin-top: 20px;
+  padding-right: 20px;
+
+  color: #FFF;
+  font-size: 32px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.area-cadastrado h3{
+  color: #FFF;
+  font-size: 15px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 5%;
+  margin-top: 40px  ;
+}
+
+.area-cadastrado button{
+  width: 80%;
+  height: 40px;
+  margin-left: 10%;
+  border: none;
+  border-radius: 45px;
+  margin-top: 202px;
+  
+  background: radial-gradient(109.18% 2536.25% at 52.04% 100.00%, #8161C4 0%, #DDD1FC 100%);
+  color: #FFF;
+  font-size: 15px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
