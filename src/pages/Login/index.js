@@ -26,8 +26,6 @@ export default function Login(){
           </div>
 
           <div className='area-limpa' style={{ backgroundImage: "url(/fundo.png)" }}  >
-
-            
           </div>
 
         </div>

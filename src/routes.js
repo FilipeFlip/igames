@@ -6,6 +6,8 @@ import Cadastro from './pages/Cadastro'
 
 import Login from './pages/Login'
 
+import Jogo from './pages/Jogo'
+
 function RoutesApp(){
     return(
         <BrowserRouter>
@@ -13,6 +15,7 @@ function RoutesApp(){
                 <Route path = "/" element ={<Home/>} />
                 <Route path = "/cadastro" element ={<Cadastro/>} />
                 <Route path = "/login" element ={<Login/>} />
+                <Route path = "/jogo" element ={<Jogo/>} />
             </Routes>
         </BrowserRouter>
     )

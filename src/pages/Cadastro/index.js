@@ -5,6 +5,10 @@ export default function Cadastro(){
     return(
         <div className='container-cadastrar'>
 
+          <body>
+            
+          </body>
+
           <div className="area-input">
             <h1>Cadastrar</h1>
             <div className='email'>
@@ -32,6 +36,7 @@ export default function Cadastro(){
             </button>
           </div>
           
+          <div className='fundo'></div>
 
 
         </div>

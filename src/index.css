@@ -4,10 +4,7 @@
   box-sizing: border-box;
 }
 
-body{
-  font-family: sans-serif;
-  background-color: #9984CD;
-}
+
 
 button{
   cursor: pointer;
