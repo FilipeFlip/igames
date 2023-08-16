@@ -2,7 +2,7 @@ import './jogo.css';
 
 import logoimg from './doom-1-capa.png';
 
-import Layout from './components/Layout';
+import Layout from "../../components/Layout";
 
 export default function Jogo(){
 
@@ -14,20 +14,17 @@ export default function Jogo(){
       </div>
 
       <div className='descricao'>
-
         <img src={logoimg} alt= 'capa-jogo'/>
+        <h1>Você é um dos melhores fuzileiros navais da Terra e acaba de ser enviado para a instalação de pesquisa de Marte da United Space Carrier (UAC). O experimento funciona mal e cria um portal para o inferno. A instalação de pesquisa é invadida por demônios. Você deve cometer suicídio sozinho.</h1>
       </div>
 
 
-      <div class="header" id="myHeader">
-        
 
-        <h3>My Header</h3>
-      </div>
+
 
       <div className='comentarios'>
         Write your post:
-        <textarea name="post-area" rows={4} cols={40} />
+
       </div>
       
     </div>

@@ -23,7 +23,7 @@ function Layout() {
       <div className="mainHeader" id="mainHeader" ref={stickyHeader}>
 
         <div className='pesquisa'>
-          <input placeholder='Pesquisar' />
+          <input placeholder='Pesquisar...' />
           <button class='pesquisar'> <BiSearchAlt size={24} color= "#FFF"/></button>
         </div>
 

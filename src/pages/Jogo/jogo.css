@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
 
 .container-jogo{
-	width: 100%;
-	height: 100%;
+	width: 120%;
+	height: 100vh;
 	display: flex;
-  padding-top: 60px;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -39,6 +38,7 @@
 }
 
 .pesquisa{
+  
   width: 90%;
   height: 50px;
   display: inline-flex;
@@ -53,6 +53,7 @@
   margin-top: 5px;
 }
 .pesquisa input{
+  font-family: Inter;
   width: 400px;
   height: 40px;
 
@@ -62,6 +63,16 @@
   margin-left: 10px;
   margin-top: 5px;
 }
+
+.pesquisa input::placeholder{
+    color: #808080;
+    font-size: 16px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    padding-left: 25px;
+}
+
 
 .perfil{
   width: 15%;
@@ -78,11 +89,19 @@
 }
 
 .perfil button{
+  font-family: Inter;
   width: 100%;
   border: none;
+
+  color: black;
+  font-size: 14px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
 }
 
 .perfil p {
+  
   text-align: center;
   margin-left: 5%;
 }
@@ -97,11 +116,31 @@
   width: 100%;
   border: none;
   background-color: #808080;
+
+  color: black;
+  font-size: 14px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
 }
 
 .descricao{
 	width: 60%;
 	height: 450px;
+  display: inline-flex;
+  margin-top: 100px;
+  
+  color: black;
+  font-size: 14px;
+  font-family: Inter;
+  font-style: normal;
+  
+}
+
+.descricao h1{
+  width: 90%;
+  margin-left: 40px;
+
 }
 
 .comentarios{
